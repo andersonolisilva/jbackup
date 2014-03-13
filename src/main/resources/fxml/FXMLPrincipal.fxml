@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="74.1328125" prefWidth="496.0" xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx/2.2" fx:controller="br.com.jbackup.FXMLPrincipalController">
+  <children>
+    <TextField fx:id="arquivoSelecionado" layoutX="14.0" layoutY="14.0" prefWidth="470.0" />
+    <Button defaultButton="true" layoutX="14.0" layoutY="39.0" mnemonicParsing="false" onAction="#selecionarArquivo" text="Selecionar Arquivo..." />
+    <Button layoutX="327.0" layoutY="39.0" mnemonicParsing="false" prefWidth="157.0" text="Enviar arquivo" onAction="#enviarArquivo" />
+  </children>
+</AnchorPane>
